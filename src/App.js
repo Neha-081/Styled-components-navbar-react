@@ -1,22 +1,18 @@
 import { useState } from 'react';
 
-import DrawerItem from './components/DrawerItem'
-import Sitename from './components/Sitename';
+import Links from './components/Links';
+import LogoImg from './components/Logo';
 import './App.css'
 function App(){
-    const [theme,setTheme]=useState("light");
  return (
     <div className="main">
      <div>
-    <Sitename>Site Name
-    </Sitename>
+    <LogoImg><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH1qgWfKaFQucxcGCmMb3buBnO_s6DkL_vm8p4qAW_jFvmKWyb20wWmt0xwYfuHGTSdY8&usqp=CAU"/>
+    </LogoImg>
     </div>
     <div className="App">
-    <DrawerItem>About us </DrawerItem>
-    <DrawerItem >Prices </DrawerItem>
-    <DrawerItem >Start Page</DrawerItem>
-    <DrawerItem >Offer</DrawerItem>
-    <DrawerItem >Contact</DrawerItem>
+    <Links>Sign Up</Links>
+    <Links >Sign In </Links>
     </div>
     </div>
   

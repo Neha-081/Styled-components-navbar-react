@@ -1,18 +1,12 @@
-.App{
-    display: inline-flex;
-    flex-wrap: wrap;
-    
-
-}
-img{
-    width: 400px;
-}body{
-    padding: 100px;
+body{
+    padding: 50px;
 }.main{
-    background-color: blue;
-    width: 65%;
-    margin: auto;
-    border: 5px solid black;
-    border-right: 10px solid black;
-    border-bottom: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: gray;
+    
+}.App{
+    display: flex;
+    
 }
