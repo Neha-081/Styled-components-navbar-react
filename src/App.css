@@ -1,0 +1,18 @@
+.App{
+    display: inline-flex;
+    flex-wrap: wrap;
+    
+
+}
+img{
+    width: 400px;
+}body{
+    padding: 100px;
+}.main{
+    background-color: blue;
+    width: 65%;
+    margin: auto;
+    border: 5px solid black;
+    border-right: 10px solid black;
+    border-bottom: none;
+}
